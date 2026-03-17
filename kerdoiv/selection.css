@@ -1,0 +1,8 @@
+#gomb {
+    background-color: lightblue;
+}
+
+#gomb:hover { 
+    background-color: red;
+    cursor: pointer;
+}

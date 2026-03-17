@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="uticel">Következő uticélod: </label>
+    <select name="uticel" id="uticel">
+        <option value="" disabled selected>Válszassz!</option>
+        <option value="Franciaorszag">Franciaország</option>
+        <option value="Olaszorszag">Olaszország</option>
+        <option value="Spanyolorszag">Spanyolország</option>
+    </select>
+    
+    <p id="eredmeny"></p>
+
+    <button id="gomb">Gomb</button>
+    <br>
+
+
+
+
+
+
+    <hr>
+    <label for="nap">Melyik az utolso nap a héten: </label>
+    <input type="text" id="nap">
+
+
+    <br>
+    <br>
+
+    <label for="tantargy">Melyik tantárgyból tanulsz idegen nyelvet: </label>
+    <select name="lenyilo" id="lenyilo">
+        <option value="" selected disabled>Válassz ---</option>
+        <option value="angol">angol</option>
+        <option value="tesi">tesi</option>
+        <option value="rajz">rajz</option>
+    </select>
+
+    <br><br>
+
+    <label for="suli">Milyen suliba jársz</label> <br>
+    <input type="radio" id="altalanos" value="altalanos" name="rad"> <label for="altalanos">altalanos</label> <br>
+    <input type="radio" id="kozep" value="kozep" name="rad"> <label for="kozep">kozep</label> <br>
+    <input type="radio" id="egyetem" value="egyetem" name="rad"> <label for="egyetem">egyetem</label>
+
+    <br><br><br>
+    <button id="leadas">Leadás</button>
+    <p>Helyes válszok száma: <span id="eredmenyes"></span></p>
+
+    <script src="selection.js"></script>
+    
+</body>
+</html>
